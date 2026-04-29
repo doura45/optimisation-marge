@@ -61,7 +61,7 @@ with st.sidebar:
     st.info("Analyse de la performance commerciale basée sur le dataset public Olist (Brésil).")
 
 # --- TITRE PRINCIPAL ---
-st.title("🛍️ Analyse de Performance Retail (E-commerce)")
+st.title("Analyse de Performance Retail (E-commerce)")
 st.markdown("---")
 
 # Si les données sont vides, on arrête
@@ -70,7 +70,7 @@ if df.empty:
     st.stop()
 
 # --- ONGLETS ---
-tab1, tab2, tab3 = st.tabs(["📈 Vue Globale", "📦 Analyse Catégories", "💰 Simulateur de Croissance"])
+tab1, tab2, tab3 = st.tabs(["Vue Globale", "Analyse Catégories", "Simulateur de Croissance"])
 
 # --- ONGLET 1 : VUE GLOBALE ---
 with tab1:
