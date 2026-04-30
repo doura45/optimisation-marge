@@ -61,7 +61,7 @@ with st.sidebar:
     st.info("Analyse de la performance commerciale basée sur le dataset public Olist (Brésil).")
 
 # --- TITRE PRINCIPAL ---
-st.title("Analyse de Performance Retail (E-commerce)")
+st.title("Performance Commerciale — Olist Store")
 st.markdown("---")
 
 # Si les données sont vides, on arrête
